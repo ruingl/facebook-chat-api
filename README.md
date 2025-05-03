@@ -7,6 +7,13 @@
   <h2>how to use?</h2>
 </div>
 
+### firstly, install the package
+```sh
+npm i ruingl/facebook-chat-api 
+```
+
+### code example:
+
 ```js
 // import fca
 const fca = require("facebook-chat-api");
