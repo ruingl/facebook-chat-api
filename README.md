@@ -1,19 +1,29 @@
 <div align="center">
-  <h1><b>facebook-chat-api</b></h1>
+  <h1>facebook-chat-api</h1>
+  <p>remod of ws3-fca</p>
 </div>
 
 <div align="center">
-  <h6><i>remod of ws3-fca</i></h6>
+  <h2>how to use?</h2>
 </div>
 
-<div align="center">
-  <h6>use ws3-fca!</h6>
-</div>
+```js
+// import fca
+const fca = require("facebook-chat-api");
 
-<div align="center">
-  <a href="https://github.com/NethWs3Dev/ws3-fca"
-     target="_blank"
-  >
-    ws3-fca github repo
-  </a>
-</div>
+// setup fca
+fca.logging(false);
+// you can change this if you want
+// to turn off log.
+
+// login!
+fca.login({
+  // add your cookie in appState.
+  appState: []
+}, (err, api) => {
+  // log the error
+  if (err) console.error(err.error);
+
+  // do what u want here
+});
+```
