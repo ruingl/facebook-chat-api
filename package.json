@@ -1,7 +1,7 @@
 {
-    "name": "ws3-fca",
+    "name": "facebook-chat-api",
     "version": "1.0.47",
-    "description": "The most advanced next-generation Facebook Chat API (FCA) by @NethWs3Dev (Kenneth Aceberos)",
+    "description": "The most advanced next-generation Facebook Chat API (FCA) by @NethWs3Dev (Kenneth Aceberos), remodded by rui :3",
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
